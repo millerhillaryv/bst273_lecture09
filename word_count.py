@@ -26,10 +26,17 @@ fh = open(args.data_file)
 print("the file handle is", fh)
 
 
-#count variables - set = 0 
+#count variables - set = 0
 lines = 0
 words = 0
 chars = 0
+
+#read in file line by lines
+
+for line in fh:
+	lines += 1
+print(lines)
+
 #-------------------------------------------------------------------------------
 # our code for analyzing the data
 #-------------------------------------------------------------------------------
