@@ -37,13 +37,6 @@ for line in fh:
 	lines += 1
 print(lines)
 
-row = []
-for line in fh:
-    row = line.split(" ")
-    for i in row:
-		words += 1
-
-print(words)
 
 #-------------------------------------------------------------------------------
 # our code for analyzing the data
